@@ -1,0 +1,42 @@
+body {
+	background-color: #333;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #FFF;
+}
+li {
+	margin: 0;
+	float: left;
+	border-right: 1px solid #CCC;
+	width: 90px;
+}
+li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+	text-align: center;
+}
+li a:hover {
+	background-color: #AAA;
+}
+div.textBody {
+	background-color: #FFF;
+	border-radius: 5px;
+	margin: 10px;
+}
+section {
+	display: flex;
+}
+aside {
+	flex: 1;
+}
+article {
+	flex: 4;
+}
